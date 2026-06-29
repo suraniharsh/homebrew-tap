@@ -7,22 +7,22 @@ class Kairos < Formula
   on_macos do
     on_arm do
       url "https://github.com/suraniharsh/kairos/releases/download/v#{version}/kairos-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "0ddc4477f329c3301a6b5fef45a8264e71f0600d7de40c82c0fa1580a882509b"
+      sha256 "fbaa2ba61e183e2adf106450dbba654c8969bbfc41926606ec9bbb07219e4106"
     end
     on_intel do
       url "https://github.com/suraniharsh/kairos/releases/download/v#{version}/kairos-v#{version}-x86_64-apple-darwin.tar.gz"
-      sha256 "10d7c4d135bc90cec13913f2a750bfafa90e22ad8d7bbce9bb8e20bb83e25276"
+      sha256 "40dec389dec80bdec3443274022714b9abc6de60d334137bf58f78a4abde6029"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/suraniharsh/kairos/releases/download/v#{version}/kairos-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ac25167abd8fb88458770fdfa13de9a70e846b63ba44f323a9d33dfa77dc7935"
+      sha256 "da4ba239ecb2009376a68ce95981898612784dde7cb46a6d7d46d0190b5fa870"
     end
     on_intel do
       url "https://github.com/suraniharsh/kairos/releases/download/v#{version}/kairos-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e282bac8ad9f74fbe6684ee75f6c64d35a6e86610954438d008e3ef13c656549"
+      sha256 "3b3edfc37e9fa12367eebd85018c09c01491490e6d682e687df548ad11073890"
     end
   end
 
